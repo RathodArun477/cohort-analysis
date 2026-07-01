@@ -1,8 +1,8 @@
 import pandas as pd
 import os
 
-RAW_PATH = '../data/raw/online_retail_II.csv'
-PROCESSED_DIR = '../data/processed'
+RAW_PATH = 'data/raw/online_retail_II.csv'
+PROCESSED_DIR = 'data/processed'
 
 os.makedirs(PROCESSED_DIR,exist_ok=True)
 
